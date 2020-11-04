@@ -112,19 +112,7 @@ elif computerChoices == 'water' and playerChoice == 'sourya':
 #----------------------------------------------------------------------------------------------------
 #The following us all the comparisons if the computer chooses "Sourya"
 
-elif computerChoices == 'sourya' and playerChoice == 'rock':
-    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins! Sourya always wins')
-
-elif computerChoices == 'sourya' and playerChoice == 'paper':
-    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins! Sourya always wins')
-
-elif computerChoices == 'sourya' and playerChoice == 'scissors':
-    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins! Sourya always wins')
-
-elif computerChoices == 'sourya' and playerChoice == 'pistol':
-    print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins! Sourya always wins')
-
-elif computerChoices == 'sourya' and playerChoice == 'water':
+elif computerChoices == 'sourya' and not playerChoice == 'sourya':
     print('You chose' + playerChoice + ' and the computer chose' + computerChoices + ', The computer wins! Sourya always wins')
 
 #----------------------------------------------------------------------------------------------------
